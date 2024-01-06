@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
+    <style>
+        .cont1 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .cont1-1 {
+            display: block;
+            margin: auto;
+            font-family: 'Overlock SC', sans-serif;
+            font-size: larger;
+            color: rgb(100, 58, 107);
+        }
+
+        .cont3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .links {
+            overflow: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .link {
+            overflow: auto;
+            margin-right: 77px;
+            margin-left: 0px;
+            text-decoration: none;
+            font-family: 'Philosopher', sans-serif;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: rgb(92, 131, 116);
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        .cont3 {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cont3-1 {
+            height: 119px;
+            display: flex;
+            font-family: 'Jaldi', sans-serif;
+            font-size: 32px;
+            justify-content: center;
+            margin-bottom: -25px;
+
+            color: rgb(89, 111, 183);
+            padding-top: 0px;
+            padding-bottom: 25px;
+        }
+
+        .cont3-3 {
+            display: block;
+            font-family: 'Philosopher', sans-serif;
+            font-size: 18px;
+            justify-content: center;
+            margin: auto;
+
+        }
+
+        .cont3-3 p {
+            padding-right: 350px;
+            padding-left: 400px;
+            color: rgb(17, 35, 90);
+        }
+
+        .cont3-2 {
+            display: block;
+            font-size: 20px;
+            margin: auto;
+            font-family: 'Jaldi', sans-serif;
+            color: rgb(179, 19, 18);
+        }
+
+        .cont2 {
+            display: flex;
+            margin-top: 3cm;
+            margin-bottom: 0cm;
+
+
+        }
+
+
+        .cont2-2 {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cont2-1 {
+            font-size: medium;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Philosopher', sans-serif;
+            width: 50%;
+        }
+
+        .name {
+            font-family: 'Philosopher', sans-serif;
+            width: 15cm;
+            height: 2cm;
+            border: none;
+            border-bottom: 1px solid black;
+            text-align: left;
+        }
+
+        .btn1 {
+            border: none;
+            border-radius: -2px;
+            margin: 0px 0px;
+            font-family: 'Rethink Sans', sans-serif;
+            width: 2cm;
+            height: 1.1cm;
+            background-color: black;
+            color: white;
+        }
+
+        .container { display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+        }
+        iframe{
+            width: 100%;
+            height: 15cm;
+        }
+
+        footer {
+            font-family: 'Philosopher', sans-serif;
+            text-align: center;
+            color: rgb(95, 38, 74);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont1">
+        <div class="cont1-1">
+            <h1>ACADEMIXFOLIO</h1>
+        </div>
+    </div>
+    <div class="cont3">
+        <nav>
+            <ul class="links">
+                <li class="link"><a href="INDEX.html">HOME</a></li>
+                <li class="link"><a href="ABOUT ME.html">ABOUT ME</a></li>
+                <li class="link"><a href="CONTACTS.html">CONTACT</a></li>
+                <li class="link"><a href="BLOG.html">BLOG</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="cont2">
+        <div class="cont2-1">
+            <h2>CONTACT</h2>
+            <h5>Bengaluru, Karnataka, India </h5>
+            <h5>mallikarjunm.btech23@rvu.edu.in </h5>
+            <h5>9353530928 </h5>
+        </div>
+        <div class="cont2-2">
+            <div><input type="text" class="name" placeholder="First Name"></div>
+            <div><input type="text" class="name" placeholder="Last Name"></div>
+            <div><input type="email" class="name" placeholder="E-Mail"></div>
+            <div><input type="tel" class="name" placeholder="Mobile-Number"></div>
+            <div><input type="text" class="name" placeholder="Comment"></div>
+            <button class="btn1" onclick="showpopup()"> Submit </button>
+
+        </div>
+
+    </div>
+    <div class="container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8938.825939820024!2d77.49544804678631!3d12.924650820971989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ee159ba3729%3A0x75a3463d510cf26e!2sR.%20V.%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1704507234591!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <footer>
+        <h3>Academixfolio</h3>
+        <h5>mallikarjunm.btech23@rvu.edu.in</h5>
+        <h5>2024 by Mallikarjun.Proudly created.....</h5>
+    </footer>
+    <script>
+        function showpopup() {
+            alert("Details Submitted");
+        }
+    </script>
+</body>
+
+</html>
